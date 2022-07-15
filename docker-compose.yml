@@ -1,15 +1,6 @@
 version: "3.4"
 
 services:
-  db:
-    image: mongo:5.0
-    ports:
-      - "27017:27017"
-    volumes:
-      - ~/app/mongo:/data/db
-    environment:
-      - MONGO_INITDB_ROOT_USERNAME=citizix
-      - MONGO_INITDB_ROOT_PASSWORD=S3cret
   web:
     build: .
     command: python manage.py runserver 0.0.0.0:8000
