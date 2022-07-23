@@ -2,10 +2,10 @@ from django.db import models
 
 
 class Program(models.Model):
-    id = models.IntegerField()
+    id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=255)
     is_actif = models.BooleanField()
-    promo_code = models.CharField()
+    promo_code = models.CharField(max_length=255)
     price = models.FloatField()
 
     def __str__(self):
@@ -13,8 +13,8 @@ class Program(models.Model):
 
 
 class Apartments(models.Model):
-    id = models.IntegerField()
-    id_program = models.ForeignKey("Program", null=False, related_name="id")
+    id = models.IntegerField(primary_key=True)
+    id_program = models.ForeignKey("Program", null=False, on_delete=models.CASCADE, related_name="prog")
     name = models.CharField(max_length=255)
     surface = models.FloatField()
     number_of_pieces = models.IntegerField()

@@ -1,0 +1,352 @@
+[
+ {
+   "model": "api_app.Program",
+   "pk": 1,
+   "fields": {
+     "id": 1,
+      "name" : "promo1",
+      "is_actif" : true,
+      "promo_code" : "hqjsd",
+      "price": 80000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 2,
+   "fields": {
+     "id": 2,
+      "name" : "promo2",
+      "is_actif" : true,
+      "promo_code" : "new promotion",
+      "price": 85000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 3,
+   "fields": {
+     "id": 3,
+      "name" : "promo3",
+      "is_actif" : false,
+      "promo_code" : "code2",
+      "price": 90000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 4,
+   "fields": {
+     "id": 4,
+      "name" : "promo4",
+      "is_actif" : true,
+      "promo_code" : "code4",
+      "price": 100000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 5,
+   "fields": {
+     "id": 5,
+      "name" : "promo5",
+      "is_actif" : false,
+      "promo_code" : "code5",
+      "price": 150000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 6,
+   "fields": {
+     "id": 6,
+      "name" : "promo6",
+      "is_actif" : true,
+      "promo_code" : "code6",
+      "price": 95000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 7,
+   "fields": {
+     "id": 7,
+      "name" : "promo7",
+      "is_actif" : true,
+      "promo_code" : "code7",
+      "price": 80000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 8,
+   "fields": {
+     "id": 8,
+      "name" : "promo8",
+      "is_actif" : false,
+      "promo_code" : "code8",
+      "price": 85000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 9,
+   "fields": {
+     "id": 9,
+      "name" : "promo9",
+      "is_actif" : true,
+      "promo_code" : "code9",
+      "price": 90000
+   }
+ },
+   {
+   "model": "api_app.Program",
+   "pk": 10,
+   "fields": {
+     "id": 10,
+      "name" : "promo10",
+      "is_actif" : false,
+      "promo_code" : "code10",
+      "price": 100000
+   }
+ },
+ {
+   "model": "api_app.Apartments",
+   "pk": 1,
+   "fields": {
+     "id": 1,
+    "id_program" : 1,
+    "name": "appartement1",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+   {
+   "model": "api_app.Apartments",
+   "pk": 2,
+   "fields": {
+     "id": 2,
+    "id_program" : 5,
+    "name": "appartement2",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "appartements avec piscine"
+   }
+ },
+   {
+   "model": "api_app.Apartments",
+   "pk": 3,
+   "fields": {
+     "id": 3,
+    "id_program" : 5,
+    "name": "appartement3",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 4,
+   "fields": {
+     "id": 4,
+    "id_program" : 1,
+    "name": "appartement4",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 5,
+   "fields": {
+     "id": 5,
+    "id_program" : 1,
+    "name": "appartement5",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+   },
+     {
+   "model": "api_app.Apartments",
+   "pk": 6,
+   "fields": {
+     "id": 6,
+    "id_program" : 8,
+    "name": "appartement6",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": ""
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 7,
+   "fields": {
+     "id": 7,
+    "id_program" : 8,
+    "name": "appartement7",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 8,
+   "fields": {
+     "id": 8,
+    "id_program" : 9,
+    "name": "appartement8",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 9,
+   "fields": {
+     "id": 9,
+    "id_program" : 1,
+    "name": "appartement9",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 10,
+   "fields": {
+     "id": 10,
+    "id_program" : 1,
+    "name": "appartement10",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": ""
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 11,
+   "fields": {
+     "id": 11,
+    "id_program" : 10,
+    "name": "appartement11",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": ""
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 12,
+   "fields": {
+     "id": 12,
+    "id_program" : 9,
+    "name": "appartement12",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 13,
+   "fields": {
+     "id": 13,
+    "id_program" : 1,
+    "name": "appartement13",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 14,
+   "fields": {
+     "id": 14,
+    "id_program" : 1,
+    "name": "appartement14",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 15,
+   "fields": {
+     "id": 15,
+    "id_program" : 1,
+    "name": "appartement15",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 16,
+   "fields": {
+     "id": 16,
+    "id_program" : 1,
+    "name": "appartement16",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 17,
+   "fields": {
+     "id": 17,
+    "id_program" : 1,
+    "name": "appartement17",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 18,
+   "fields": {
+     "id": 18,
+    "id_program" : 1,
+    "name": "appartement18",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "beautiful view"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 19,
+   "fields": {
+     "id": 19,
+    "id_program" : 1,
+    "name": "appartement19",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "appartement avec piscine"
+   }
+ },
+     {
+   "model": "api_app.Apartments",
+   "pk": 20,
+   "fields": {
+     "id": 20,
+    "id_program" : 5,
+    "name": "appartement20",
+    "surface": 50.0,
+    "number_of_pieces": 5,
+    "features": "proches des stations de ski"
+   }
+ }
+]

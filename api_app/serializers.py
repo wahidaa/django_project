@@ -16,5 +16,5 @@ class ProramSerializer(ModelSerializer):
     class Meta:
         model = Program
         fields = (
-            'id', 'name', 'is_actif', 'promo_code', 'price'
+            'name', 'is_actif', 'price'
         )

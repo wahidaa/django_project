@@ -1,11 +1,9 @@
-Django>=3.0,<4.0
-psycopg2-binary>=2.8
+Django
 djangorestframework
 pytest
 pytest-django
 pytest-cov
 mixer
 mock
-mongoengine~=0.24.1
 setuptools
 factory_boy
